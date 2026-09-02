@@ -1,0 +1,53 @@
+/*@!Encoding:65001*/
+includes
+{
+
+}
+
+variables
+{
+  msTimer txTimer;
+  message EMS_Data_Msg msg;
+  message Wheel_Speed_Msg msg1;
+  message ABS_Status_Msg msg2;
+}
+
+on start
+{
+  write("Welcome CAPL Programming");
+  setTimer(txTimer, 100);
+}
+
+on message EMS_Data_Msg
+{
+  float engine_speed;
+  engine_speed = this.Engine_Speed;
+  write("Received Engine Speed:%f C", engine_speed);
+}
+
+on message Wheel_Speed_Msg
+{
+  float wheel_speed;
+  wheel_speed = this.Wheel_Speed;
+  write("Received Engine Speed:%f rpm", wheel_speed);
+}
+
+on timer txTimer
+{
+  float coeff = 1.5;
+  if (msg.Engine_Speed > coeff*msg1.Wheel_Speed)
+  {
+    write("Warning: High Engine_speed");
+    $ABS_Active = 1;
+    $Slip_Flag = 1;
+  }
+  else
+  {
+    $ABS_Active = 0;
+    $Slip_Flag = 0;
+  }
+  msg2.ABS_Active = $ABS_Active;
+  msg2.Slip_Flag = $Slip_Flag;
+  output(msg2);
+  setTimer(txTimer, 100);
+}
