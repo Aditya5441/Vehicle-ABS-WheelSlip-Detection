@@ -35,6 +35,12 @@ broadcasts the result back onto the bus.
 
 ---
 
+## 🎥 Demo Video
+
+Watch a short demo of the simulation in action:
+
+▶️ [**Watch Demo Video**](https://drive.google.com/file/d/1gZoCr4XzScaXeXfCp-tpqFsPmpH-qGTG/view?usp=sharing)
+
 ## ⚙️ How It Works
 
 ```
