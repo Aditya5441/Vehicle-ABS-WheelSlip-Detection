@@ -33,7 +33,7 @@ wheel is slipping), the node raises `ABS_Active` and `Slip_Flag` and
 broadcasts the result back onto the bus.
 
 <p align="center">
-  <img src="docs/01_main_canoe_workspace.png" alt="CANoe workspace" width="90%">
+  <img src="docs/01_main_canoe_workspace_.png" alt="CANoe workspace" width="90%">
 </p>
 
 ---
