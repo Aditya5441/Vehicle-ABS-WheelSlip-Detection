@@ -13,9 +13,6 @@
 ![Database](https://img.shields.io/badge/DATABASE-DBC-1f2937?style=for-the-badge&labelColor=1f2937&color=0EA5E9)
 ![Status](https://img.shields.io/badge/STATUS-SIMULATION%20VALIDATED-1f2937?style=for-the-badge&labelColor=1f2937&color=65A30D)
 
-![View](https://img.shields.io/badge/VIEW-SOURCE-1f2937?style=for-the-badge&labelColor=1f2937&color=2563EB)
-![Docs](https://img.shields.io/badge/DOCS-SCREENSHOTS-1f2937?style=for-the-badge&labelColor=1f2937&color=DB2777)
-![License](https://img.shields.io/badge/LICENSE-MIT-1f2937?style=for-the-badge&labelColor=1f2937&color=6B7280)
 
 </div>
 
