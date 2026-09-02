@@ -92,14 +92,14 @@ Vehicle-ABS-WheelSlip-Detection-CANoe-CAPL/
 
 | File | Description |
 |---|---|
-| `docs/01_main_canoe_workspace.png` | Full CANoe workspace — simulation setup, write, data, trace & graphics windows |
-| `docs/02_trace_window.png` | CAN trace: `EMS_Data_Msg`, `Wheel_Speed_Msg`, `ABS_Status_Msg` frames |
-| `docs/03_simulation_setup.png` | Node/network setup — ABS_ECU, Engine_ECU, Wheel_Sensor_ECU on CAN 1 |
-| `docs/04_measurement_setup.png` | Measurement setup block diagram |
-| `docs/05_gauges_panel.png` | RPM and km/h gauge panel |
-| `docs/06_write_window_log.png` | Write window log of received Engine Speed values |
-| `docs/07_data_window.png` | Live signal values (ABS_Active, Engine_Speed, Gear_Position, Slip_Flag, Wheel_Speed) |
-| `docs/08_graphics_window.png` | Graphics window plotting signals over time |
+| <img src="docs/01_main_canoe_workspace_.png" alt="CANoe workspace" width="90%"> | Full CANoe workspace — simulation setup, write, data, trace & graphics windows |
+| <img src="docs/02_trace_window.png" alt="CANoe workspace" width="90%"> | CAN trace: `EMS_Data_Msg`, `Wheel_Speed_Msg`, `ABS_Status_Msg` frames |
+| <img src="docs/03_simulation_setup.png" alt="CANoe workspace" width="90%">| Node/network setup — ABS_ECU, Engine_ECU, Wheel_Sensor_ECU on CAN 1 |
+| <img src="docs/04_measurement_setup.png" alt="CANoe workspace" width="90%">| Measurement setup block diagram |
+| <img src="docs/05_gauges_panel.png" alt="CANoe workspace" width="90%">| RPM and km/h gauge panel |
+| <img src="docs/06_write_window_log.png" alt="CANoe workspace" width="90%">| Write window log of received Engine Speed values |
+| <img src="docs/07_data_window.png" alt="CANoe workspace" width="90%">| Live signal values (ABS_Active, Engine_Speed, Gear_Position, Slip_Flag, Wheel_Speed) |
+| <img src="docs/08_graphics_window.png" alt="CANoe workspace" width="90%">| Graphics window plotting signals over time |
 
 ---
 
